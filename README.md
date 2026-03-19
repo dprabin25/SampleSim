@@ -105,12 +105,9 @@ All remaining proteins are treated as **non-shifted proteins**.
 The simulation follows two simple statistical rules.
 
 #### Non-shifted proteins
-All non-shifted proteins are sampled from the same background distribution in all samples:
+All non-shifted proteins are sampled from the same background distribution in all samples
 
-```r
-rnorm(mean = others_mean, sd = others_sd)
-
-Reference
+## Reference
 [1] Prabin Dawadi, Ryan M Tobin, Jorge Frias-Lopez, Alpdogan Kantarci, Flavia Teles, Sayaka Miura. Uncovering Periodontal Ecosystem Complexity with Sample Trees. (2026) Under Review
 
 Copyright 2025, Authors and University of Mississippi
