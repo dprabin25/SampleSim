@@ -27,7 +27,7 @@ set.seed(123)
 # -----------------------------
 # User-defined settings
 # -----------------------------
-workdir <- "C:\\Simulation3.17.26"
+workdir <- "**************************************"
 
 n_target_samples    <- 5
 n_other_samples     <- 140
