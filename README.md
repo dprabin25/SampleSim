@@ -16,7 +16,7 @@ Such datasets are useful for benchmarking analytical methods, testing normalizat
 
 ---
 
-## Why this simulator exists
+## Usage
 
 In real biological datasets, the true signal is rarely known with certainty. By contrast, simulation allows the investigator to define exactly:
 
