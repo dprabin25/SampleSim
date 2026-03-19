@@ -102,9 +102,6 @@ All remaining proteins are treated as **non-shifted proteins**.
 
 ### 3. Simulate the protein values
 
-The simulation follows two simple statistical rules.
-
-#### Non-shifted proteins
 All non-shifted proteins are sampled from the same background distribution in all samples
 
 ## Reference
