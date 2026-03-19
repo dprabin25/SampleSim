@@ -25,7 +25,7 @@ In real biological datasets, the true signal is rarely known with certainty. By 
 - how strong that signal should be, and
 - how much background variation should be present.
 
-SampleSim was written for precisely this purpose: to generate simple, reproducible synthetic datasets in which **shifted** and **non-shifted** proteins are known beforehand.
+SampleSim was written for precisely this purpose: to generate simple, reproducible synthetic datasets in which **shifted** and **non-shifted** proteins can be known beforehand.
 
 ---
 
