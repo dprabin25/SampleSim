@@ -1,23 +1,10 @@
-# =========================================================
-# TREE-ONLY SIMULATION USING PARAMETERS FROM CSV
-#
-# Reads a CSV from the same working directory.
-# Uses the first column (Label) as the file name prefix.
-#
-# Output naming:
-#   Label.csv
-#   LabelM.csv
-#   LabelStat.csv
-#   LabelMap.csv
-# =========================================================
-
 set.seed(123)
 
 # -----------------------------
 # User-defined settings
 # -----------------------------
-workdir <- "C:\\Simulation3.17.26"
-param_csv <- file.path(workdir, "MetdataSD.csv")   # CSV in same working dir
+workdir <- *********************"  ## Change working dir
+param_csv <- file.path(workdir, "*********.csv")   # Change csv file
 
 n_other_samples    <- 140
 n_total_proteins   <- 64
