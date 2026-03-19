@@ -67,6 +67,7 @@ It is most useful when one wishes to:
 
 In this version, the value in the `Label` column is used as the prefix for all output files associated with that simulation run.
 
+Note: Example csv file that could be used is in the SampleSim repository. 
 ---
 
 ## Shared simulation logic
