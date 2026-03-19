@@ -1,33 +1,9 @@
-# =========================================================
-# SELF-CONTAINED SIMPLE TREE-ONLY SIMULATION
-#
-# No input files needed
-#
-# You can change:
-#   1. Number of target samples
-#   2. Number of other samples
-#   3. Number of shifted proteins
-#   4. Number of total proteins
-#
-# Naming rules:
-#   Samples  -> Sample_1, Sample_2, ...
-#   Proteins -> Protein_1, Protein_2, ...
-#
-# Simulation rules:
-#   - All non-shifted proteins: rnorm(mean = others_mean, sd = others_sd)
-#   - Shifted proteins in non-target samples: same background
-#   - Shifted proteins in target samples: shifted distribution
-#
-# Added:
-#   - Row-wise MinMax normalization like your Python approach
-# =========================================================
-
 set.seed(123)
 
 # -----------------------------
 # User-defined settings
 # -----------------------------
-workdir <- "**************************************"
+workdir <- "**************************************" ## Change the dir
 
 n_target_samples    <- 5
 n_other_samples     <- 140
