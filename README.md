@@ -109,3 +109,13 @@ All non-shifted proteins are sampled from the same background distribution in al
 
 ```r
 rnorm(mean = others_mean, sd = others_sd)
+
+Reference
+[1] Prabin Dawadi, Ryan M Tobin, Jorge Frias-Lopez, Alpdogan Kantarci, Flavia Teles, Sayaka Miura. Uncovering Periodontal Ecosystem Complexity with Sample Trees. (2026) Under Review
+
+Copyright 2025, Authors and University of Mississippi
+BSD 3-Clause "New" or "Revised" License, which is a permissive license similar to the BSD 2-Clause License except that that it prohibits others from using the name of the project or its contributors to promote derived products without written consent. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
