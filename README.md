@@ -38,14 +38,14 @@ set.seed(123)
 # -----------------------------
 workdir <- "path/to/your/output/folder"   # <-- change this
 
-n_target_samples    <- 5
-n_other_samples     <- 140
-n_shifted_proteins  <- 3
-n_total_proteins    <- 64
+n_target_samples    <- 14            ## Number of target samples where shifting is expected
+n_other_samples     <- 140          ## Total number of non-target samples (with no-shifts)
+n_shifted_proteins  <- 3            ## Number of shifting elements in n_target_samples
+n_total_proteins    <- 64           ## Total number of protein in samples
 
-others_mean      <- 2.96
-others_sd        <- 0.94
-shift_multiplier <- 2.28
+others_mean      <- 2.0   ## Mean of non-shifting target group
+others_sd        <- 0.6   ## Standard deviation of non-shifting target group
+shift_multiplier <- 0.4   ## Based on change in magnitude between shifting and non-shifting groups
 ```
 
 | Parameter | Description |
