@@ -103,13 +103,13 @@ Create a CSV file with one row per scenario. The following columns are required:
 
 The number of non-target samples (`n_other_samples`) and total proteins (`n_total_proteins`) are fixed inside the script itself and apply to all rows.
 
-An example CSV with three scenarios:
+An example CSV of input csv :
 
 ```
 Label,n_target_samples,n_shifted_proteins,others_mean,others_sd,shift_multiplier
-Scenario_A,5,3,2.96,0.94,2.28
-Scenario_B,10,10,2.96,0.94,1.50
-Scenario_C,20,0,2.96,0.94,0.00
+
+<img width="478" height="350" alt="image" src="https://github.com/user-attachments/assets/4e6ed4a9-29bc-4724-8186-6caf75c1e22c" />
+
 ```
 
 An example file is also provided in this repository.
