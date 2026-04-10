@@ -48,8 +48,8 @@ others_sd        <- 0.94
 shift_multiplier <- 2.28
 ```
 
-| Parameter | Line | Description |
-|---|---|---|
+| Parameter | Description |
+|---|---|
 | `workdir` | Path to the folder where all output files will be saved. The folder is created automatically if it does not exist. |
 | `n_target_samples`  | Number of samples that belong to the **target group** (labeled `Y`). These are the samples in which shifted proteins will show elevated values. |
 | `n_other_samples` | Number of samples that belong to the **non-target group** (labeled `N`). These samples draw all protein values from the background distribution. |
