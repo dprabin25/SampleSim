@@ -50,14 +50,14 @@ shift_multiplier <- 2.28
 
 | Parameter | Line | Description |
 |---|---|---|
-| `workdir` | ~5 | Path to the folder where all output files will be saved. The folder is created automatically if it does not exist. |
-| `n_target_samples` | ~8 | Number of samples that belong to the **target group** (labeled `Y`). These are the samples in which shifted proteins will show elevated values. |
-| `n_other_samples` | ~9 | Number of samples that belong to the **non-target group** (labeled `N`). These samples draw all protein values from the background distribution. |
-| `n_shifted_proteins` | ~10 | How many proteins should be **intentionally elevated** in the target group. These are always the first `n` proteins (e.g., `Protein_1`, `Protein_2`, ...). Setting this to `0` produces a null dataset with no true signal. |
-| `n_total_proteins` | ~11 | Total number of proteins to simulate. Must be greater than or equal to `n_shifted_proteins`. The remaining proteins after the shifted set all follow the background distribution in every sample. |
-| `others_mean` | ~15 | Mean of the **background (non-target) distribution**, applied to all non-shifted proteins in all samples and to shifted proteins in non-target samples. Values are on a log₁₀ scale. |
-| `others_sd` | ~16 | Standard deviation of the background distribution. Controls how much natural variation exists across all samples and proteins. |
-| `shift_multiplier` | ~17 | Controls the magnitude of the signal in shifted proteins within target samples. The target mean is computed as `(shift_multiplier × others_mean) + others_mean`. A value of `0` produces no shift; larger values produce a stronger, more detectable signal. |
+| `workdir` | Path to the folder where all output files will be saved. The folder is created automatically if it does not exist. |
+| `n_target_samples`  | Number of samples that belong to the **target group** (labeled `Y`). These are the samples in which shifted proteins will show elevated values. |
+| `n_other_samples` | Number of samples that belong to the **non-target group** (labeled `N`). These samples draw all protein values from the background distribution. |
+| `n_shifted_proteins` | How many proteins should be **intentionally elevated** in the target group. These are always the first `n` proteins (e.g., `Protein_1`, `Protein_2`, ...). Setting this to `0` produces a null dataset with no true signal. |
+| `n_total_proteins` | Total number of proteins to simulate. Must be greater than or equal to `n_shifted_proteins`. The remaining proteins after the shifted set all follow the background distribution in every sample. |
+| `others_mean` | Mean of the **background (non-target) distribution**, applied to all non-shifted proteins in all samples and to shifted proteins in non-target samples. Values are on a log₁₀ scale. |
+| `others_sd` | Standard deviation of the background distribution. Controls how much natural variation exists across all samples and proteins. |
+| `shift_multiplier` | Controls the magnitude of the signal in shifted proteins within target samples. The target mean is computed as `(shift_multiplier × others_mean) + others_mean`. A value of `0` produces no shift; larger values produce a stronger, more detectable signal. |
 
 The output file names are defined just below and can also be changed if desired.
 
