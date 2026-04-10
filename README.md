@@ -105,12 +105,11 @@ The number of non-target samples (`n_other_samples`) and total proteins (`n_tota
 
 An example CSV of input csv :
 
-```
+
 Label,n_target_samples,n_shifted_proteins,others_mean,others_sd,shift_multiplier
 
 <img width="478" height="350" alt="image" src="https://github.com/user-attachments/assets/4e6ed4a9-29bc-4724-8186-6caf75c1e22c" />
 
-```
 
 An example file is also provided in this repository.
 
